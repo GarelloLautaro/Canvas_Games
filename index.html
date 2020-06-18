@@ -3,12 +3,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/reset.css">
         <link
             href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Ubuntu+Condensed&display=swap"
             rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Orbitron&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet" href="./JS/app.js">
         <link rel="stylesheet" href="IMG/userProfile.png">
         <title>Canvas_GAMES</title>
     </head>
@@ -31,7 +33,13 @@
             <div class="games">
                 <div class="gameOne">
                     <div class="coverGameOne">
-                        <img class="imgGameOne" src="./IMG/coverSnakeGame.jpg">
+                        <div id="level" class="score"> LEVEL: </div>
+                        <div class="game">
+                            <p><canvas id="canvas" width="500" height="400" style="border-radius: 10px">
+                                    El nevagador no soporta canvas.
+                                </canvas></p>
+                        </div>
+                        <div id="score" class="score">SCORE : </div>
                     </div>
                     <div class="titleGameOne">
                         <span>Snake Game</span>

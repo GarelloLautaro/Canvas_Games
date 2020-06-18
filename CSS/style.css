@@ -60,7 +60,6 @@ h1 {
     justify-content: space-between;
     width: 100%;
     height: 60%;
-    border-bottom: 1px solid black;
 }
 .gameOne, .gameTwo {
     display: flex;
@@ -70,6 +69,7 @@ h1 {
 }
 .coverGameOne, .coverGameTwo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -128,6 +128,5 @@ h1 {
 }
 
 .decoration {
-    border: 1px solid black;
     height: 10%;
 }
